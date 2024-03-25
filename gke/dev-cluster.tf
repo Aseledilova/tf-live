@@ -1,5 +1,5 @@
 module "dev_gke_cluster" {
-    source = "https://github.com/Aseledilova/tf-module.git"
+    source = "git@github.com:aseledilova/tf-module.git//gke"
     service_account_id = "dev-gke-service-account"
     service_account_display_name = "DEV GKE service account"
     cluster_name = "dev-cluster"
